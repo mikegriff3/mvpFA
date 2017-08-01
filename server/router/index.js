@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
 router.use('/favorites', require('./playersRouter'));
-// router.use('/createPlayer', require('./playerRouter'));
+router.use('/wishlist', require('./wishlistRouter'));
 
 module.exports = router;
