@@ -35,8 +35,13 @@ export default class App extends React.Component {
 		return (
 			<div>
 				<NavBar />
-				<h1 id='title'>2017 NBA FREE AGENTS</h1>
-				<PlayerList players={this.state.players}/>
+				<div className="container">
+					<div className="jumbotron">
+						<h3>Vander Blue Inks Two Year Partially Guaranteed Deal With The Los Angeles Lakers</h3>
+					</div>
+					<h1 id='title'>2017 NBA FREE AGENTS</h1>
+					<PlayerList players={this.state.players}/>
+				</div>	
 			</div>
 		);
 	}

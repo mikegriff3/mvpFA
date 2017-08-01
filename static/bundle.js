@@ -22472,11 +22472,24 @@ var App = function (_React$Component) {
 				null,
 				_react2.default.createElement(_NavBar2.default, null),
 				_react2.default.createElement(
-					'h1',
-					{ id: 'title' },
-					'2017 NBA FREE AGENTS'
-				),
-				_react2.default.createElement(_PlayerList2.default, { players: this.state.players })
+					'div',
+					{ className: 'container' },
+					_react2.default.createElement(
+						'div',
+						{ className: 'jumbotron' },
+						_react2.default.createElement(
+							'h3',
+							null,
+							'Vander Blue Inks Two Year Partially Guaranteed Deal With The Los Angeles Lakers'
+						)
+					),
+					_react2.default.createElement(
+						'h1',
+						{ id: 'title' },
+						'2017 NBA FREE AGENTS'
+					),
+					_react2.default.createElement(_PlayerList2.default, { players: this.state.players })
+				)
 			);
 		}
 	}]);
